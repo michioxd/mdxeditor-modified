@@ -8,7 +8,7 @@ import { TooltipWrap } from "../primitives/TooltipWrap.js";
 const InsertImage = React__default.forwardRef((_, forwardedRef) => {
   const openNewImageDialog = imagePluginHooks.usePublisher("openNewImageDialog");
   const [readOnly] = corePluginHooks.useEmitterValues("readOnly");
-  return /* @__PURE__ */ React__default.createElement(RadixToolbar.Button, { className: styles.toolbarButton, ref: forwardedRef, disabled: readOnly, onClick: () => openNewImageDialog(true) }, /* @__PURE__ */ React__default.createElement(TooltipWrap, { title: "Insert image" }, /* @__PURE__ */ React__default.createElement(AddPhotoIcon, null)));
+  return /* @__PURE__ */ React__default.createElement(RadixToolbar.Button, { className: styles.toolbarButton, ref: forwardedRef, disabled: readOnly, onClick: () => openNewImageDialog(true) }, /* @__PURE__ */ React__default.createElement(TooltipWrap, { title: "Chèn ảnh" }, /* @__PURE__ */ React__default.createElement(AddPhotoIcon, null)));
 });
 export {
   InsertImage

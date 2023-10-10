@@ -9,7 +9,7 @@
   "private": false,
   "sideEffects": false,
   "type": "module",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "React component for rich text markdown editing",
   "scripts": {
     "build": "vite build",
