@@ -22,6 +22,7 @@ const ImageDialog = () => {
       onOpenChange: (open) => {
         if (!open) {
           closeImageDialog(true);
+          setLoading(false);
           reset({ src: "", title: "", altText: "" });
         }
       }
